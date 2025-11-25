@@ -71,9 +71,5 @@ def ask4():     #x=2,n=4 -> 2^0+2^1+2^2+2^3+2^4
     n = int(input("enter a number : "))
 
     print( gsum(x,n) )
-
-
-
-
-
+    
 ask4()
