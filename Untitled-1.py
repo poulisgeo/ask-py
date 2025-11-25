@@ -59,10 +59,18 @@ def ask3():
 
 ask3()
 
-def ask4():
-    
+def ask4():     #x=2,n=4 -> 2^0+2^1+2^2+2^3+2^4
+    def gsum(x,n):
+        count = 0
+        if n <= 0:
+            return count
+        for i in range(0,n+1):
+            count = count + (x ** i)
+        return count
+    x = int(input("enter a number : "))
+    n = int(input("enter a number : "))
 
-
+    print( gsum(x,n) )
 
 
 
